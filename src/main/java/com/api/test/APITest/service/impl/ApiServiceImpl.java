@@ -24,12 +24,4 @@ public class ApiServiceImpl implements ApiService {
         return response.toString();
     }
 
-//    String getDataFromTableA1(){
-//        List<TableA1DAO> tableA1DAOList = apiRepository.findAll();
-//        StringBuilder response = new StringBuilder();
-//        for (TableA1DAO tableA1DAO : tableA1DAOList) {
-//            response.append(tableA1DAO.getId() +"," +tableA1DAO.getName()+"," +tableA1DAO.getLastname());
-//        }
-//        return response.toString();
-//    }
 }
